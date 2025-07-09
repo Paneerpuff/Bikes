@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(backgroundimg.jpg);
+    background-size: cover;
+}
+
+i{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: cyan;
+}
+
+.des{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: rgb(255, 77, 49);
+    text-transform: uppercase;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: rgb(170, 255, 0);
+    text-transform: uppercase;
+}
+
+.exhaust{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:cyan;
+}
+
+i{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.exhaust-sounds{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.exhaust-sounds .col-1,.col-2,.col-3,.col-4{
+    display: flex;
+    flex-direction: column;
+}
